@@ -21,10 +21,10 @@ With this project, you can:
 ---
 
 ## ⚙️ How It Works
-1. The ESP32 connects to your Wi-Fi and then to AWS IoT Core using MQTT over TLS.
-2.It subscribes to a topic like esp32/pub.
-3.From the AWS console (MQTT test client), you can publish open or close to that topic.
-4.Based on the received message:
-  open → Servo motor rotates to 0°
-  close → Servo motor rotates to 90°
-5.The window's position is adjusted physically through the servo.
+- The ESP32 connects to your Wi-Fi and then to AWS IoT Core using MQTT over TLS.
+- It subscribes to a topic like esp32/pub.
+- From the AWS console (MQTT test client), you can publish open or close to that topic.
+- Based on the received message:
+  - open → Servo motor rotates to 0°
+  - close → Servo motor rotates to 90°
+- The window's position is adjusted physically through the servo.
