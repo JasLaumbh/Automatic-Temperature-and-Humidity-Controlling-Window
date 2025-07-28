@@ -5,11 +5,11 @@ This project automates the opening and closing of a window using an ESP32 microc
 
 ## ✅ What This Project Can Do
 With this project, you can:
-🔄 Remotely open or close the window by sending open or close messages from AWS IoT Core.
-📶 Receive MQTT messages from AWS IoT Core on the ESP32 in real time.
-⚙️ Automatically move the servo motor to a specific angle depending on the command (open = 0°, close = 90°).
-🔒 Securely connect to AWS IoT Core using certificates and credentials.
-📡 Subscribe to a topic (e.g., esp32/pub) and act based on messages received from AWS.
+- 🔄 Remotely open or close the window by sending open or close messages from AWS IoT Core.
+- 📶 Receive MQTT messages from AWS IoT Core on the ESP32 in real time.
+- ⚙️ Automatically move the servo motor to a specific angle depending on the command (open = 0°, close = 90°).
+- 🔒 Securely connect to AWS IoT Core using certificates and credentials.
+- 📡 Subscribe to a topic (e.g., esp32/pub) and act based on messages received from AWS.
 ---
 
 ## 🌐 Tech Stack
